@@ -1,0 +1,22 @@
+[project]
+name = "math2sound"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "maroofiums", email = "maroof96965@gmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "matplotlib>=3.11.2",
+    "numpy>=2.5.3",
+    "pytest>=9.1.1",
+    "streamlit>=1.65.0",
+]
+
+[project.scripts]
+math2sound = "math2sound:main"
+
+[build-system]
+requires = ["uv_build>=0.12.0,<0.13.0"]
+build-backend = "uv_build"
